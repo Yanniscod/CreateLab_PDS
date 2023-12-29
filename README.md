@@ -1,7 +1,7 @@
 # Create Lab x Swiss Cat+ - Efficient Station-to-Station Navigation of a Mobile Robot using Multi-Sensor Localisation
 
 ## Disclaimer
-This package was copied from the private repository of Swiss Cat, to allow the review of the implemented code. It cannot be run unless one downloads the Nav2 package and the marvelmind packages.
+This package was copied from the private repository of Swiss Cat, to allow the review of the implemented code. It cannot be run unless one downloads the Nav2 package and the marvelmind packages. The package of interest is *mob_rob_loca*.
 
 ## Presentation
 This package implements an accurate localization and navigation system of a wheeled-robot, the Edison mobile, in *ROS2 Galactic*. The localization uses an extended Kalman filter to fuse sensor data, specifically odometry of the wheels, ultrasonic GPS and IMU data. The navigation system was taken from the [Nav2 repository](https://github.com/ros-planning/navigation2/tree/galactic) and adapted to the needs of the SwissCat+ West Hub laboratory, where the Edison Mobile is operating and responsible of transporting vials between stations.
